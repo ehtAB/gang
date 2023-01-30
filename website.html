@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <h1 id="my-text">My Website</h1>
+  <script>
+    const text = document.getElementById("my-text");
+    const myFunction = () => text.innerHTML = "Hello there.";
+    setTimeout(myFunction, 5000);
+  </script>
+</body>
+</html>
